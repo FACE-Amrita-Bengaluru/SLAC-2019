@@ -1,6 +1,8 @@
 {
-  "name": "functions",
-  "description": "Cloud Functions for Firebase",
+  "name": "slac2019",
+  "version": "1.0.0",
+  "description": "Code for SLAC 2018 (xth edition of SLAC)",
+  "main": "index.js",
   "scripts": {
     "lint": "eslint .",
     "serve": "firebase serve --only functions",
@@ -10,12 +12,14 @@
     "logs": "firebase functions:log"
   },
   "dependencies": {
-    "firebase-admin": "~6.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "firebase-admin": "^6.1.0",
     "firebase-functions": "^2.1.0"
   },
   "devDependencies": {
-    "eslint": "^4.12.0",
-    "eslint-plugin-promise": "^3.6.0"
+    "eslint": "^5.8.0",
+    "eslint-plugin-promise": "^4.0.1"
   },
   "private": true
 }

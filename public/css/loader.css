@@ -30,7 +30,7 @@
 	width: 100px;
 	height: 1px;
 	left: -102px;
-	background-color: #00d9ec;
+	background-color: hotpink;
 	-webkit-animation: loader-anim 1s 0s infinite
 		cubic-bezier(0.785, 0.135, 0.15, 0.86);
 	-moz-animation: loader-anim 1s 0s infinite

@@ -168,6 +168,10 @@ h2 {
 	top: 10%;
 }
 
+.title h2 {
+	color: rgb(0, 0, 0);
+}
+
 .line {
 	display: block;
 	margin: 0 auto;

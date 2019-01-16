@@ -30,7 +30,7 @@ img {
 
 body {
 	background: #fff;
-	color: #666666;
+	color: #ffffff;
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-size-adjust: 100%;
@@ -52,6 +52,7 @@ section {
 -------------------------------------------------------------- */
 a {
 	text-decoration: none;
+	color: #00abff;
 }
 
 h1,
@@ -64,7 +65,7 @@ h1 {
 	font-weight: 800;
 	line-height: 80px;
 	letter-spacing: -0.08em;
-	color: #161a1b;
+	color: #ffffff;
 }
 
 h2 {
@@ -169,7 +170,7 @@ h2 {
 }
 
 .title h2 {
-	color: rgb(0, 0, 0);
+	color: rgb(255, 255, 255);
 }
 
 .line {
@@ -216,7 +217,7 @@ h2 {
 	-webkit-transition: opacity 0.3s;
 	-moz-transition: opacity 0.3s;
 	transition: opacity 0.3s;
-	color: black;
+	color: rgb(255, 255, 255);
 	font-size: 24px;
 }
 
@@ -229,7 +230,7 @@ h2 {
 
 .contact a.mail {
 	text-decoration: none;
-	color: #161a1b;
+	color: #ffffff;
 	padding-bottom: 8px;
 	font-size: 15px;
 }
@@ -1118,7 +1119,7 @@ h2 {
 	line-height: 1em;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
-	color: #161a1b;
+	color: #ffffff;
 	background: transparent;
 	border: 1px solid rgb(23, 26, 28);
 	border: 1px solid rgba(23, 26, 28, 0.3);

@@ -6,6 +6,14 @@ app.set('views', './views');
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
+	res.redirect('/ComingSoon');
+});
+
+app.get('/ComingSoon', (req, res) => {
+	res.render('ComingSoon');
+});
+
+app.get('/Main', (req, res) => {
 	res.render('index');
 });
 

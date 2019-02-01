@@ -1,6 +1,6 @@
 {
 	"name": "slac2019",
-	"version": "2.0.0",
+	"version": "2.1.0",
 	"description": "Code for SLAC 2018 (xth edition of SLAC)",
 	"main": "index.js",
 	"scripts": {
@@ -14,11 +14,11 @@
 	"dependencies": {
 		"ejs": "^2.6.1",
 		"express": "^4.16.4",
-		"firebase-admin": "^6.1.0",
+		"firebase-admin": "^6.5.1",
 		"firebase-functions": "^2.1.0"
 	},
 	"devDependencies": {
-		"eslint": "^5.8.0",
+		"eslint": "^5.12.1",
 		"eslint-plugin-promise": "^4.0.1"
 	},
 	"private": true

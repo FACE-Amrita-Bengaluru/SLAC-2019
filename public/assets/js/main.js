@@ -134,7 +134,7 @@ $(document).ready(function() {
 		var marker = new google.maps.Marker({
 			position: new google.maps.LatLng(lattuide, longtuided),
 			map: map,
-			title: 'evento!'
+			title: 'SLAC 2019'
 		});
 	}
 });

@@ -4,7 +4,7 @@ body {
 	line-height: 25px;
 	font-weight: 400;
 	font-family: montserrat, sans-serif;
-	color: #838383;
+	color: #4e4a4a;
 	font-style: normal;
 	overflow-x: hidden;
 }
@@ -50,12 +50,12 @@ h6,
 	margin-bottom: 10px;
 }
 p {
-	font-size: 14px;
+	font-size: 18px;
 	font-family: montserrat, sans-serif;
 	margin: 0 0 15px;
 	line-height: 24px;
 	font-weight: 400;
-	color: #838383;
+	color: #4e4a4a;
 }
 p:last-child {
 	margin-bottom: 0;
@@ -74,7 +74,7 @@ a:focus,
 a:active {
 	text-decoration: none;
 	outline: none;
-	color: #838383;
+	color: #4e4a4a;
 	-webkit-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 }
@@ -341,7 +341,7 @@ img {
 	color: #f0f2f6 !important;
 }
 .color-dark-gray {
-	color: #838383 !important;
+	color: #4e4a4a !important;
 }
 .color-dark {
 	color: #333 !important;
@@ -1478,7 +1478,7 @@ footer .newsletter_form .form-control {
 .copyright_footer ul.footer_menu li a {
 	padding: 10px;
 	text-transform: capitalize;
-	color: #838383;
+	color: #4e4a4a;
 }
 .copyright_footer ul.footer_menu li a:hover {
 	color: #fff;
@@ -2033,7 +2033,7 @@ footer .newsletter_form .form-control {
 }
 .icon_box_two .content p {
 	font-weight: 500;
-	color: #838383;
+	color: #4e4a4a;
 }
 .speaker_box {
 	position: relative;
@@ -2145,7 +2145,7 @@ footer .newsletter_form .form-control {
 .price_box .price_header h6 {
 	font-size: 14px;
 	text-transform: capitalize;
-	color: #838383;
+	color: #4e4a4a;
 	font-weight: 400;
 }
 .price_box .price_tag {
@@ -2160,7 +2160,7 @@ footer .newsletter_form .form-control {
 	font-weight: 400;
 	top: -15px;
 	left: -7px;
-	color: #838383;
+	color: #4e4a4a;
 }
 .price_box .price_features ul {
 	list-style: none;
@@ -2455,7 +2455,7 @@ footer .newsletter_form .form-control {
 	display: inline-block;
 	font-size: 12px;
 	font-weight: 600;
-	color: #838383;
+	color: #4e4a4a;
 }
 .blog_card .blog_box_data .blog_meta a:hover {
 	color: #163ca9;
@@ -2574,7 +2574,7 @@ footer .newsletter_form .form-control {
 	padding: 6px 0;
 	display: block;
 	width: 100%;
-	color: #838383;
+	color: #4e4a4a;
 	font-size: 12px;
 	font-weight: 500;
 	text-transform: capitalize;
@@ -2607,7 +2607,7 @@ footer .newsletter_form .form-control {
 	display: block;
 	padding: 10px 12px;
 	background-color: #f0f2f6;
-	color: #838383;
+	color: #4e4a4a;
 	border: solid 1px #f0f2f6;
 	font-size: 12px;
 	font-weight: 500;

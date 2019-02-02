@@ -3,7 +3,7 @@
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content="Evento -Event Html Template" />
+		<meta name="description" content="Stay Late and Code" />
 		<meta name="keywords" content="SLAC 2019, Hackathon, Coding, Programming " />
 		<meta name="author" content="Aravind V. Nair, Aditya D, Abhishek Sai " />
 		<meta
@@ -25,6 +25,8 @@
 		<link rel="stylesheet" href="assets/css/animate.min.css" />
 
 		<link href="assets/css/main.css" rel="stylesheet" />
+		<link href="assets/css/main1.scss" rel="stylesheet" />
+
 	</head>
 	<body>
 		<div class="loader">
@@ -35,7 +37,7 @@
 		<header class="header navbar fixed-top navbar-expand-md">
 			<div class="container">
 				<a class="navbar-brand logo" href="#">
-					<img src="assets/img/logo.png" alt="Evento" />
+					<img src="assets/img/slac.png" alt="SLAC" />
 				</a>
 				<button
 					class="navbar-toggler"
@@ -53,24 +55,22 @@
 				>
 					<ul class=" nav navbar-nav menu">
 						<li class="nav-item">
-							<a class="nav-link active" href="#">Home</a>
+							<a class="nav-link active" href="#home">Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link " href="#">Speakers</a>
+							<a class="nav-link " href="#about">About</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link " href="#">Events</a>
+							<a class="nav-link " href="#pricing">Pricing</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link " href="#">News</a>
+							<a class="nav-link " href="#news">News</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link " href="#sponsors">Sponsors</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link " href="#">Contact</a>
-						</li>
-						<li class="search_btn">
-							<a href="#">
-								<i class="ion-ios-search"></i>
-							</a>
 						</li>
 					</ul>
 				</div>
@@ -78,10 +78,11 @@
 		</header>
 
 		<section id="home" class="home-cover">
+			<div id="particles-js">
 			<div class="cover_slider owl-carousel owl-theme">
 				<div
 					class="cover_item"
-					style="background: url('assets/img/bg/slider.png');"
+			<!--style="background: url('assets/img/bg/slider.png');"-->
 				>
 					<div class="slider_content">
 						<div class="slider-content-inner">
@@ -97,10 +98,10 @@
 										30-31 March 2019 - Amrita School of Engineering, Bangalore.
 									</p>
 									<a
-										href="#"
+										href="#pricing"
 										class=" btn btn-primary btn-rounded"
 									>
-										Buy Tickets Now
+										Register Now
 									</a>
 								</div>
 							</div>
@@ -125,10 +126,10 @@
 										30-31 March 2019 - Amrita School of Engineering, Bangalore.
 									</p>
 									<a
-										href="#"
+										href="#pricing"
 										class=" btn btn-primary btn-rounded"
 									>
-										Buy Tickets Now
+										Register Now
 									</a>
 								</div>
 							</div>
@@ -153,10 +154,10 @@
 										30-31 March 2019 - Amrita School of Engineering, Bangalore.
 									</p>
 									<a
-										href="#"
+										href="#pricing"
 										class=" btn btn-primary btn-rounded"
 									>
-										Buy Tickets Now
+										Register Now
 									</a>
 								</div>
 							</div>
@@ -171,6 +172,7 @@
 					<li data="2.html"><span>3</span></li>
 				</ul>
 			</div>
+		</div >
 		</section>
 
 		<section class="pt100 pb100">
@@ -249,7 +251,7 @@
 			</div>
 		</section>
 
-		<section class="pt100 pb100">
+		<section id ="about" class="pt100 pb100">
 			<div class="container">
 				<div class="section_title">
 					<h3 class="title">
@@ -259,24 +261,14 @@
 				<div class="row justify-content-center">
 					<div class="col-12 col-md-6">
 						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							eli. Integer iaculis in lacus a sollicitudin. Ut
-							hendrerit hendrerit nisl a accumsan. Pellentesque
-							convallis consectetur tortor id placerat. Curabitur
-							a pulvinar nunc. Maecenas laoreet finibus lectus, at
-							volutpat ligula euismod.
+							Stay Late and Code, abbreviated as SLAC is a 24 hour hackathon held 
+							at Amrita School of Engineering, Bangalore, India a branch of the highly 
+							reputed Amrita Vishwa Vidyapeetham founded by the Mata Amritanandamayi Math.
+							 The hackathon is aimed at bringing together undergraduate student developers 
+							 to create efficient software to solve real world problems.
 						</p>
 					</div>
-					<div class="col-12 col-md-6">
-						<p>
-							In rhoncus massa nec sollicitudin. Ut hendrerit
-							hendrerit nisl a accumsan. Pellentesque convallis
-							consectetur tortor id placerat. Curabitur a pulvinar
-							nunc. Maecenas laoreet finibus lectus, at volutpat
-							ligula euismod quis. Maecenas ornare, ex in
-							malesuada tempus.
-						</p>
-					</div>
+					
 				</div>
 
 				<div class="row justify-content-center mt30">
@@ -464,7 +456,7 @@
 			</div>
 		</section>
 
-		<section class="pb100">
+		<section id = "pricing" class="pb100">
 			<div class="container">
 				<div class="section_title mb50">
 					<h3 class="title">
@@ -482,10 +474,10 @@
 									Early Bird
 								</h4>
 								<h6>
-									For the fast ones
+									For the Enthusiastic ones
 								</h6>
 							</div>
-							<div class="price_tag">65 <sup>$</sup></div>
+							<div class="price_tag"> ₹400<sup></sup></div>
 							<div class="price_features">
 								<ul>
 									<li>
@@ -513,17 +505,17 @@
 						<div class="price_box">
 							<div class="price_header">
 								<h4>
-									Start up
+									Regular
 								</h4>
 								<h6>
-									For the begginers
+									For the Beginners
 								</h6>
 							</div>
-							<div class="price_tag">85 <sup>$</sup></div>
+							<div class="price_tag"> ₹500<sup></sup></div>
 							<div class="price_features">
 								<ul>
 									<li>
-										Early Entrance
+										Regular
 									</li>
 									<li>
 										Front seat
@@ -543,45 +535,12 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-4 col-12">
-						<div class="price_box">
-							<div class="price_header">
-								<h4>
-									Corporate
-								</h4>
-								<h6>
-									For the business
-								</h6>
-							</div>
-							<div class="price_tag">95 <sup>$</sup></div>
-							<div class="price_features">
-								<ul>
-									<li>
-										Early Entrance
-									</li>
-									<li>
-										Front seat
-									</li>
-									<li>
-										Complementary Drinks
-									</li>
-									<li>
-										Promo Gift
-									</li>
-								</ul>
-							</div>
-							<div class="price_footer">
-								<a href="#" class="btn btn-primary btn-rounded"
-									>Purchase</a
-								>
-							</div>
-						</div>
-					</div>
+			
 				</div>
 			</div>
 		</section>
 
-		<section class="pb100">
+		<section id ="news" class="pb100">
 			<div class="container">
 				<div class="table-responsive">
 					<table class="event_calender table">
@@ -691,11 +650,11 @@
 			</div>
 		</section>
 
-		<section class="bg-gray pt100 pb100">
+		<section id ="sponsors" class="bg-gray pt100 pb100">
 			<div class="container">
 				<div class="section_title mb50">
 					<h3 class="title">
-						our partners
+						Our Sponsors
 					</h3>
 				</div>
 				<div class="brand_carousel owl-carousel">
@@ -766,32 +725,32 @@
 									laoreet finibus lectus, at volutpat ligula
 									euismod.
 								</p>
-								<ul class="footer_social">
+								<ul class="footer_social">	
 									<li>
-										<a href="#"
-											><i class="ion-social-pinterest"></i
-										></a>
-									</li>
-									<li>
-										<a href="#"
+										<a href="https://www.facebook.com/face00amrita/"
 											><i class="ion-social-facebook"></i
 										></a>
 									</li>
 									<li>
-										<a href="#"
+										<a href="https://twitter.com/slackfest2k19"
 											><i class="ion-social-twitter"></i
 										></a>
 									</li>
 									<li>
-										<a href="#"
-											><i class="ion-social-dribbble"></i
-										></a>
-									</li>
-									<li>
-										<a href="#"
+										<a href="https://www.instagram.com/face_aseb/"
 											><i class="ion-social-instagram"></i
 										></a>
 									</li>
+									<li>
+										<a href="https://www.linkedin.com/company/face-aseb/"
+											><i class="ion-social-linkedin"></i
+										></a>
+									</li>
+									<li>
+										<a href="https://face-amrita.firebaseapp.com/Blog"
+											><i class="ion-social-wordpress"></i
+										></a>
+									</li>									
 								</ul>
 							</div>
 						</div>
@@ -894,7 +853,7 @@
 							All rights reserved | This template is made with
 							<i class="fa fa-heart-o" aria-hidden="true"></i> by
 							<a href="#" target="_blank"
-								>Aravind, Adi, Abhi</a
+								>Aravind, Aditya, Abhishek</a
 							>
 						</p>
 					</div>

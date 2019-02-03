@@ -1,6 +1,6 @@
 # :office: SLAC-2019
 
-An event website cum portal made originally for SLAC 2019 at Amrita University based on HTML5, CSS3, JS, Node.js, Express.js Firebase Hosting, Firebase Cloud Functions, Firebase Cloud Firestore.
+An event website cum portal made originally for SLAC 2019 at Amrita University based on HTML5, CSS3, Bootstrap 4, JS, Node.js, Express.js Firebase Hosting, Firebase Cloud Functions, Firebase Cloud Firestore.
 
 # :computer: How to contribute?
 
@@ -14,7 +14,8 @@ This project is licensed under the MIT license - see the [LICENSE](LICENSE) file
 
 # :family: Team
 
-* **Abhishek Sai** - *Front-end and Back-end* - [Abhishek-Sai](https://github.com/Abhishek-Sai)
+* **Abhishek Sai** - *Front-end* - [Abhishek-Sai](https://github.com/Abhishek-Sai)
+* **Aditya Deepak Udapudi** - *Front-end* - [Abhishek-Sai](https://github.com/adityadu-18)
 * **Aravind V. Nair** - *Front-end, Back-end and Security* - [AravindVNair99](https://github.com/aravindvnair99)
 
 See the full list of [contributors](https://github.com/aravindvnair99/SLAC-2019/graphs/contributors) who participated in this project and statistics.

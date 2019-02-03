@@ -30,7 +30,7 @@ app.get('/FAQ', (req, res) => {
 });
 
 app.get('/Sponsorship', (req, res) => {
-	res.send('Will be added soon.');
+	res.render('sponsorship');
 });
 
 app.get('/Terms_Conditions', (req, res) => {

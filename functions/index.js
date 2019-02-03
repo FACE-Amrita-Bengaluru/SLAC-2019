@@ -25,6 +25,14 @@ app.get('/PrivacyPolicy', (req, res) => {
 	res.send('Will be added soon.');
 });
 
+app.get('/FAQ', (req, res) => {
+	res.send('Will be added soon.');
+});
+
+app.get('/Sponsorship', (req, res) => {
+	res.send('Will be added soon.');
+});
+
 app.get('/Terms_Conditions', (req, res) => {
 	res.send('Will be added soon.');
 });

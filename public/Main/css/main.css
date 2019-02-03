@@ -60,6 +60,22 @@ p {
 p:last-child {
 	margin-bottom: 0;
 }
+.team_credits {
+	color: #00abff;
+}
+.team_credits:hover,
+.team_credits:focus,
+.team_credits:active{
+	color: hotpink;
+}
+.colour_icons {
+	color: hotpink;
+}
+.colour_icons:hover,
+.colour_icons:focus,
+.colour_icons:active{
+	color: #00abff;
+}
 a {
 	color: inherit;
 	text-decoration: none;

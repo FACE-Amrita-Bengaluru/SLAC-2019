@@ -5,39 +5,8 @@
 	<!--<![endif]-->
 
 	<head>
-		<meta charset="utf-8" />
-		<title>SLAC 2019</title>
-		<meta content="yes" name="apple-mobile-web-app-capable" />
-		<meta
-			content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
-			name="viewport"
-		/>
-		<link
-			rel="apple-touch-icon"
-			sizes="76x76"
-			href="/apple-touch-icon.png"
-		/>
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="32x32"
-			href="/favicon-32x32.png"
-		/>
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="16x16"
-			href="/favicon-16x16.png"
-		/>
-		<link rel="manifest" href="/manifest.json" />
-		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ffc40d" />
-		<meta name="apple-mobile-web-app-title" content="SLAC 2019" />
-		<meta name="application-name" content="SLAC 2019" />
-		<meta name="msapplication-TileColor" content="#ffc40d" />
-		<meta name="theme-color" content="#ffc40d" />
-		<meta property="og:image" content="/mstile-150x150.png" />
-		<meta property="og:type" content="website" />
-		<meta property="og:locale" content="en_GB" />
+		<% include meta.ejs %>
+		<title>Coming Soon | SLAC 2019</title>
 		<!--[if lt IE 9]>
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
@@ -272,25 +241,7 @@
 				</li>
 			</ul>
 		</div>
-		<script src="js/manup.js"></script>
-		<script>
-			if (navigator.serviceWorker.controller) {
-				console.log(
-					'[PWA Builder] active service worker found, no need to register'
-				);
-			} else {
-				navigator.serviceWorker
-					.register('pwabuilder-sw.js', {
-						scope: './'
-					})
-					.then(function(reg) {
-						console.log(
-							'Service worker has been registered for scope:' +
-								reg.scope
-						);
-					});
-			}
-		</script>
+		<% include pwa.ejs %>
 		<script src="ComingSoon/js/plugins.js"></script>
 		<script src="ComingSoon/js/jquery.countdown.min.js"></script>
 		<script src="ComingSoon/js/main.js"></script>

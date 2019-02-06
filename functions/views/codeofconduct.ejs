@@ -1,109 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-		<meta charset="UTF-8" />
-		<meta name="description" content="Stay Late and Code" />
-		<meta
-			name="keywords"
-			content="SLAC 2019, Hackathon, Coding, Programming "
-		/>
-		<meta
-			name="author"
-			content="Aravind V. Nair, Aditya D, Abhishek Sai "
-		/>
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1, maximum-scale=1"
-		/>
-		<link
-			rel="apple-touch-icon"
-			sizes="76x76"
-			href="/apple-touch-icon.png"
-		/>
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="32x32"
-			href="/favicon-32x32.png"
-		/>
-		<link
-			rel="icon"
-			type="image/png"
-			sizes="16x16"
-			href="/favicon-16x16.png"
-		/>
-		<link rel="manifest" href="/site.webmanifest" />
-		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#ffc40d" />
-		<meta name="apple-mobile-web-app-title" content="SLAC 2019" />
-		<meta name="application-name" content="SLAC 2019" />
-		<meta name="msapplication-TileColor" content="#ffc40d" />
-		<meta name="theme-color" content="#ffc40d" />
-		<!-- <meta property="og:image" content="/android-chrome-512x512.png" /> -->
-		<meta property="og:type" content="website" />
-		<meta property="og:locale" content="en_GB" />
-		<title>SLAC 2019</title>
-		<link href="Main/css/bootstrap.min.css" rel="stylesheet" />
-		<link href="Main/css/font-awesome.min.css" rel="stylesheet" />
-		<link href="Main/css/et-line.css" rel="stylesheet" />
-		<link href="Main/css/ionicons.min.css" rel="stylesheet" />
-		<link href="Main/css/owl.carousel.min.css" rel="stylesheet" />
-		<link href="Main/css/owl.theme.default.min.css" rel="stylesheet" />
-		<link rel="stylesheet" href="Main/css/animate.min.css" />
-		<link href="Main/css/main.css" rel="stylesheet" />
+		<title>Code of Conduct | SLAC 2019</title>
+		<% include meta.ejs %> <% include links.ejs %>
 	</head>
 	<body>
-		<div class="loader">
-			<div class="loader-outter"></div>
-			<div class="loader-inner"></div>
-		</div>
-		<header class="header navbar fixed-top navbar-expand-md">
-			<div class="container">
-				<a class="navbar-brand logo" href="#">
-					<img
-						style="height:60px;"
-						src="Main/img/logo.png"
-						alt="SLAC 2019"
-					/>
-				</a>
-				<button
-					class="navbar-toggler"
-					type="button"
-					data-toggle="collapse"
-					data-target="#headernav"
-					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="lnr lnr-text-align-right"></span>
-				</button>
-				<div
-					class="collapse navbar-collapse flex-sm-row-reverse"
-					id="headernav"
-				>
-					<ul class=" nav navbar-nav menu">
-						<li class="nav-item">
-							<a class="nav-link active" href="/#home">Home</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link " href="/#about">About</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link " href="/#pricing">Pricing</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link " href="/#itinerary">Itinerary</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link " href="/#sponsors">Sponsors</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link " href="/#contact">Contact</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</header>
-		<section id="about" class="pt100 pb10" style="background-color: #8b7d6b; color:white;">
+		<% include loader.ejs %> <% include header.ejs %>
+		<section
+			id="about"
+			class="pt100 pb10"
+			style="background-color: #8b7d6b; color:white;"
+		>
 			<div class="container">
 				<div class="section_title">
 					<h3 class="title">
@@ -112,7 +19,7 @@
 				</div>
 				<div class="row justify-content-center">
 					<div class="col-12 col-md-6">
-						<p style = "color:white;">
+						<p style="color:white;">
 							SLAC 2019 is a hackathon that aims at providing a
 							platform for the undergraduate student community to
 							gather, collaborate and develop effective solutions
@@ -127,9 +34,10 @@
 							volunteers, mentors and judges at the hackathon are
 							required to conform to the following Code of
 							Conduct. Organizers will enforce this code
-							throughout the event. <br /><br />	
+							throughout the event. <br /><br />
 						</p>
-                        <b style = "color:black;">Respect other participants:</b> <br />
+						<b style="color:black;">Respect other participants:</b>
+						<br />
 						<ul>
 							<li>
 								Harassment includes offensive verbal comments
@@ -155,8 +63,7 @@
 								other with utmost respect.<br /><br />
 							</li>
 						</ul>
-
-						<b style = "color:black;">Be Professional: </b> <br />
+						<b style="color:black;">Be Professional: </b> <br />
 						<ul>
 							<li>
 								The participants must abide by the rules of
@@ -182,7 +89,7 @@
 							</li>
 						</ul>
 
-						<b style = "color:black;">Be Open:</b><br />
+						<b style="color:black;">Be Open:</b><br />
 						<ul>
 							<li>
 								The participants are highly encouraged to
@@ -202,224 +109,7 @@
 				</div>
 			</div>
 		</section>
-		<footer>
-			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-md-4 col-12">
-						<div class="footer_box">
-							<div class="footer_header">
-								<div class="footer_logo">
-									<img
-										src="Main/img/logo.png"
-										alt="SLAC 2019"
-									/>
-								</div>
-							</div>
-							<div class="footer_box_body">
-								<ul class="footer_social">
-									<li>
-										<a
-											target="_blank"
-											href="https://facebook.com/face00amrita/"
-											><i class="ion-social-facebook"></i
-										></a>
-									</li>
-									<li>
-										<a
-											target="_blank"
-											href="https://twitter.com/slacfest2k19"
-											><i class="ion-social-twitter"></i
-										></a>
-									</li>
-									<li>
-										<a
-											target="_blank"
-											href="https://instagram.com/face_aseb/"
-											><i class="ion-social-instagram"></i
-										></a>
-									</li>
-									<li>
-										<a
-											target="_blank"
-											href="https://linkedin.com/company/face-aseb/"
-											><i class="ion-social-linkedin"></i
-										></a>
-									</li>
-									<li>
-										<a
-											target="_blank"
-											href="https://face-amrita.firebaseapp.com/Blog"
-											><i class="ion-social-wordpress"></i
-										></a>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="col-12 col-md-4">
-						<div class="footer_box">
-							<div class="footer_header">
-								<h4 class="footer_title">
-									About the Organizers
-								</h4>
-							</div>
-							<div class="footer_box_body">
-								<p>
-									SLAC 2019 is organized by FACE (Forum for
-									Aspiring Computer Engineers), the CSE
-									Departmental forum at ASE-B. FACE is a
-									pro-coding technical club at college and we
-									conduct workshops, coding events and tech
-									talks at college. <br />
-									To know more about us you can visit our
-									website by clicking
-									<a
-										class="team_credits"
-										href="http://face-amrita.firebaseapp.com"
-										target="_blank"
-									>
-										here
-									</a>
-								</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-12 col-md-4">
-						<div class="footer_box">
-							<div class="footer_header">
-								<h4 class="footer_title">
-									Wish to sponsor us
-								</h4>
-							</div>
-							<div class="footer_box_body">
-								<div class="newsletter_form">
-									<form
-										action="https://formspree.io/slacfest2k19@gmail.com"
-										method="post"
-									>
-										<input
-											name="Full Name"
-											type="text"
-											minlength="2"
-											class="form-control"
-											placeholder="Full Name"
-											required
-										/>
-										<input
-											name="Email"
-											type="email"
-											class="form-control"
-											placeholder="E-Mail here"
-											required
-										/>
-										<input
-											name="Subject"
-											type="text"
-											class="form-control"
-											placeholder="Subject"
-											required
-										/>
-										<input
-											name="Message"
-											type="text"
-											class="form-control"
-											placeholder="Message"
-											required
-											rows="10"
-											cols="50"
-										/>
-										<button
-											type="submit"
-											class="btn btn-rounded btn-block btn-primary"
-										>
-											Get in touch
-										</button>
-									</form>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<div class="copyright_footer">
-			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-md-6 col-12">
-						<p>
-							Copyright <span class="colour_icons">&copy;</span>
-							<script>
-								document.write(new Date().getFullYear());
-							</script>
-							| All rights reserved
-							<span class="colour_icons">&reg;</span>
-						</p>
-					</div>
-					<div class="col-12 col-md-6 ">
-						<ul class="footer_menu">
-							<li>
-								<a href="/#">Home</a>
-							</li>
-							<li>
-								<a href="/#about">About</a>
-							</li>
-							<li>
-								<a href="/#pricing">Pricing</a>
-							</li>
-							<li>
-								<a href="/#itinerary">Itinerary</a>
-							</li>
-							<li>
-								<a href="/#sponsors">Sponsors</a>
-							</li>
-							<li>
-								<a href="/#contact">Contact</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<div class="row justify-content-center">
-					<div class="col-12">
-						<p>
-							Made and maintained with
-							<i
-								class="fa fa-heart-o colour_icons"
-								aria-hidden="true"
-							></i>
-							by
-							<a
-								class="team_credits"
-								href="https://linkedin.com/in/aravindvnair99"
-								target="_blank"
-								>Aravind V. Nair</a
-							>,
-							<a
-								class="team_credits"
-								href="https://linkedin.com/in/abhishek-kvs"
-								target="_blank"
-								>Abhishek Sai</a
-							>
-							and
-							<a
-								class="team_credits"
-								href="http://adityaudapudi.firebaseapp.com"
-								target="_blank"
-								>Aditya Deepak Udapudi</a
-							>
-						</p>
-					</div>
-				</div>
-			</div>
-		</div>
-		<script src="Main/js/jquery.min.js"></script>
-		<script src="Main/js/popper.js"></script>
-		<script src="Main/js/bootstrap.min.js"></script>
-		<script src="Main/js/waypoints.min.js"></script>
-		<script src="Main/js/owl.carousel.min.js"></script>
-		<script src="Main/js/parallax.min.js"></script>
-		<script src="Main/js/jquery.counterup.min.js"></script>
-		<script src="Main/js/jquery.countdown.min.js"></script>
-		<script src="Main/js/wow.min.js"></script>
-		<script src="Main/js/main.js"></script>
+		<% include contact.ejs %> <% include footer.ejs %> <% include
+		copyright.ejs %> <% include pwa.ejs %> <% include scripts.ejs %>
 	</body>
 </html>

@@ -22,7 +22,7 @@ app.get('/CodeConduct', (req, res) => {
 });
 
 app.get('/PrivacyPolicy', (req, res) => {
-	res.send('Will be added soon.');
+	res.render('privacy');
 });
 
 app.get('/FAQ', (req, res) => {

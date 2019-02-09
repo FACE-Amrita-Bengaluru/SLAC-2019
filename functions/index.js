@@ -9,6 +9,10 @@ app.get('/', (req, res) => {
 	res.redirect('/ComingSoon');
 });
 
+app.get('/Offline', (req, res) => {
+	res.render('offline');
+});
+
 app.get('/ComingSoon', (req, res) => {
 	res.render('ComingSoon');
 });

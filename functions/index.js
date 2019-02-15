@@ -6,7 +6,7 @@ app.set('views', './views');
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
-	res.redirect('/ComingSoon');
+	res.render('index');
 });
 
 app.get('/Offline', (req, res) => {

@@ -1,4 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Montserrat:400,500,700,900';
+html {
+	scroll-behavior: smooth;
+}
 body {
 	font-size: 14px;
 	line-height: 25px;
@@ -65,7 +68,7 @@ p:last-child {
 }
 .team_credits:hover,
 .team_credits:focus,
-.team_credits:active{
+.team_credits:active {
 	color: hotpink;
 }
 .contact_number {
@@ -73,7 +76,7 @@ p:last-child {
 }
 .contact_number:hover,
 .contact_number:focus,
-.contact_number:active{
+.contact_number:active {
 	color: rgb(0, 255, 0);
 }
 .colour_icons {
@@ -81,7 +84,7 @@ p:last-child {
 }
 .colour_icons:hover,
 .colour_icons:focus,
-.colour_icons:active{
+.colour_icons:active {
 	color: #00abff;
 }
 a {

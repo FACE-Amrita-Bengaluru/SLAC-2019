@@ -30,7 +30,7 @@ app.get('/PrivacyPolicy', (req, res) => {
 });
 
 app.get('/FAQ', (req, res) => {
-	res.send('Will be added soon.');
+	res.redirect('ComingSoon');
 });
 
 app.get('/Sponsorship', (req, res) => {
@@ -38,7 +38,7 @@ app.get('/Sponsorship', (req, res) => {
 });
 
 app.get('/Terms_Conditions', (req, res) => {
-	res.send('Will be added soon.');
+	res.redirect('ComingSoon');
 });
 
 app.use((req, res, next) => {

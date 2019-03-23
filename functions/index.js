@@ -29,16 +29,8 @@ app.get('/PrivacyPolicy', (req, res) => {
 	res.render('privacy');
 });
 
-app.get('/FAQ', (req, res) => {
-	res.redirect('ComingSoon');
-});
-
 app.get('/Sponsorship', (req, res) => {
 	res.render('sponsorship');
-});
-
-app.get('/Terms_Conditions', (req, res) => {
-	res.redirect('ComingSoon');
 });
 
 app.use((req, res, next) => {

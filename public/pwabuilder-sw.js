@@ -26,7 +26,7 @@ self.addEventListener('fetch', function(event) {
 					error
 			);
 			return caches.open('pwabuilder-offline').then(function(cache) {
-				return cache.match('offline.html');
+				return cache.match('/Offline');
 			});
 		})
 	);

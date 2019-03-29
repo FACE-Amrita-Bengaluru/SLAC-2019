@@ -1,6 +1,6 @@
 {
 	"name": "slac2019",
-	"version": "5.2.0",
+	"version": "5.2.1",
 	"description": "Code for SLAC 2018 (xth edition of SLAC)",
 	"main": "index.js",
 	"scripts": {

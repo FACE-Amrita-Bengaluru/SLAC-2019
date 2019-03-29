@@ -9,6 +9,10 @@ app.get('/', (req, res) => {
 	res.render('index');
 });
 
+app.get('/Timer', (req, res) => {
+	res.render('timer');
+});
+
 app.get('/Offline', (req, res) => {
 	res.render('offline');
 });

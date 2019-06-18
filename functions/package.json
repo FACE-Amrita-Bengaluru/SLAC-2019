@@ -1,7 +1,7 @@
 {
 	"name": "slac2019",
-	"version": "5.3.0",
-	"description": "Code for SLAC 2018 (xth edition of SLAC)",
+	"version": "5.4.0",
+	"description": "Code for SLAC 2019 (9th edition of SLAC)",
 	"main": "index.js",
 	"scripts": {
 		"lint": "eslint .",
@@ -20,6 +20,9 @@
 	"devDependencies": {
 		"eslint": "^5.16.0",
 		"eslint-plugin-promise": "^4.1.1"
+	},
+	"engines": {
+		"node": "8"
 	},
 	"private": true
 }

@@ -50,7 +50,7 @@ $(window).load(function() {
 /* END ------------------------------------------------------- */
 
 $('#countdown').countdown({
-	date: 'August 02, 2019 11:00:00',
+	date: 'March 28, 2020 11:00:00',
 	render: function(data) {
 		var el = $(this.el);
 		el.empty()

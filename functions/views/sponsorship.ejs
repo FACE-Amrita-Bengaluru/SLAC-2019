@@ -5,10 +5,11 @@
 		<link href="Main/css/sponsorship.css" rel="stylesheet" />
 		<meta property="og:title" content="Sponsorship | SLAC 2019" />
 		<meta property="og:url" content="https://slacfest.in/Sponsorship" />
-		<% include ga.ejs %> <% include meta.ejs %> <% include links.ejs %>
+		<%- include('ga.ejs') -%> <%- include('meta.ejs') -%> <%-
+		include('links.ejs') -%>
 	</head>
 	<body>
-		<% include loader.ejs %> <% include header.ejs %>
+		<%- include('loader.ejs') -%> <%- include('header.ejs') -%>
 		<div
 			class="pricingdiv"
 			style="padding-top: 10%; padding-bottom: 10%; background-color: #8b7d6b;"
@@ -63,7 +64,8 @@
 				</div>
 			</div>
 		</div>
-		<% include contact.ejs %> <% include footer.ejs %> <% include
-		copyright.ejs %> <% include pwa.ejs %> <% include scripts.ejs %>
+		<%- include('contact.ejs') -%> <%- include('footer.ejs') -%> <%-
+		include('copyright.ejs') -%> <%- include('pwa.ejs') -%> <%-
+		include('scripts.ejs') -%>
 	</body>
 </html>

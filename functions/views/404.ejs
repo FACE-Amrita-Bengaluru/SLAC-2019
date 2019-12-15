@@ -4,7 +4,7 @@
 		<title>Error 404 | SLAC 2019</title>
 		<meta property="og:title" content="Error 404 | SLAC 2019" />
 		<meta property="og:url" content="https://slacfest.in/404" />
-		<% include ga.ejs %> <% include meta.ejs %>
+		<%- include('ga.ejs') -%> <%- include('meta.ejs') -%>
 		<style media="screen">
 			body {
 				background: #eceff1;
@@ -85,6 +85,6 @@
 				the URL for mistakes and try again.
 			</p>
 		</div>
-		<% include pwa.ejs %>
+		<%- include('pwa.ejs') -%>
 	</body>
 </html>

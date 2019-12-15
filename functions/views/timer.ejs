@@ -7,7 +7,7 @@
 	<head>
 		<meta property="og:title" content="Timer | SLAC 2019" />
 		<meta property="og:url" content="https://slacfest.in/Timer" />
-		<% include ga.ejs %> <% include meta.ejs %>
+		<%- include('ga.ejs') -%> <%- include('meta.ejs') -%>
 		<title>Timer | SLAC 2019</title>
 		<!--[if lt IE 9]>
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -237,7 +237,7 @@
 				</li>
 			</ul>
 		</div>
-		<% include pwa.ejs %>
+		<%- include('pwa.ejs') -%>
 		<script src="ComingSoon/js/plugins.js"></script>
 		<script src="ComingSoon/js/jquery.countdown.min.js"></script>
 		<script src="ComingSoon/js/main.js"></script>

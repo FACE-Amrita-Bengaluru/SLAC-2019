@@ -1,30 +1,30 @@
-$(window).load(function() {
-	$('.preloader').fadeOut('slow');
+$(window).load(function () {
+	$(".preloader").fadeOut("slow");
 });
 
 /* =Main INIT Function
 -------------------------------------------------------------- */
 function initializeSite() {
-	'use strict';
+	"use strict";
 
 	//OUTLINE DIMENSION AND CENTER
-	(function() {
+	(function () {
 		function centerInit() {
-			var sphereContent = $('.sphere'),
+			var sphereContent = $(".sphere"),
 				sphereHeight = sphereContent.height(),
 				parentHeight = $(window).height(),
 				topMargin = (parentHeight - sphereHeight) / 2;
 
 			sphereContent.css({
-				'margin-top': topMargin + 'px'
+				"margin-top": topMargin + "px",
 			});
 
-			var heroContent = $('.hero'),
+			var heroContent = $(".hero"),
 				heroHeight = heroContent.height(),
 				heroTopMargin = (parentHeight - heroHeight) / 2;
 
 			heroContent.css({
-				'margin-top': heroTopMargin + 'px'
+				"margin-top": heroTopMargin + "px",
 			});
 		}
 
@@ -33,47 +33,47 @@ function initializeSite() {
 	})();
 
 	// Init effect
-	$('#scene').parallax();
+	$("#scene").parallax();
 }
 /* END ------------------------------------------------------- */
 
 /* =Document Ready Trigger
 -------------------------------------------------------------- */
-$(window).load(function() {
+$(window).load(function () {
 	initializeSite();
-	(function() {
-		setTimeout(function() {
+	(function () {
+		setTimeout(function () {
 			window.scrollTo(0, 0);
 		}, 0);
 	})();
 });
 /* END ------------------------------------------------------- */
 
-$('#countdown').countdown({
-	date: 'March 28, 2020 11:00:00',
-	render: function(data) {
+$("#countdown").countdown({
+	date: "March 28, 2021 11:00:00",
+	render: function (data) {
 		var el = $(this.el);
 		el.empty()
 			//.append("<div>" + this.leadingZeros(data.years, 4) + "<span>years</span></div>")
 			.append(
-				'<div>' +
+				"<div>" +
 					this.leadingZeros(data.days, 2) +
-					' <span>days</span></div>'
+					" <span>days</span></div>"
 			)
 			.append(
-				'<div>' +
+				"<div>" +
 					this.leadingZeros(data.hours, 2) +
-					' <span>hrs</span></div>'
+					" <span>hrs</span></div>"
 			)
 			.append(
-				'<div>' +
+				"<div>" +
 					this.leadingZeros(data.min, 2) +
-					' <span>min</span></div>'
+					" <span>min</span></div>"
 			)
 			.append(
-				'<div>' +
+				"<div>" +
 					this.leadingZeros(data.sec, 2) +
-					' <span>sec</span></div>'
+					" <span>sec</span></div>"
 			);
-	}
+	},
 });
